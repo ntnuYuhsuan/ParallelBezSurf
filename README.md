@@ -25,7 +25,7 @@ Bezier surfaces are widely used in computer graphics and modeling. However, the 
 1. Clone the repository:
 
     ```shell
-    git clone https://github.com/your-username/ParallelBezSurf.git
+    git clone https://github.com/ntnuYuhsuan/ParallelBezSurf.git
     ```
 
 2. Build the project:
