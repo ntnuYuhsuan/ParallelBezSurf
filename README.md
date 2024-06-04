@@ -53,8 +53,6 @@ Bezier surfaces are widely used in computer graphics and modeling. However, the 
 
 ### Result
 
-## Result
-
 ![Experiment result](image.png)
 
 ## Contributing
