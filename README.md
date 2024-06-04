@@ -51,6 +51,12 @@ Bezier surfaces are widely used in computer graphics and modeling. However, the 
     ./exe.sh
     ```
 
+### Result
+
+## Result
+
+![Experiment result](image.png)
+
 ## Contributing
 
 NTNU 方語軒 612K0028C@ntnu.edu.tw
