@@ -30,31 +30,34 @@ Bezier surfaces are widely used in computer graphics and modeling. However, the 
 
 2. Build the project:
 
-    ```shell
-    cd ParallelBezSurf
-    make
+    ```bash
+    sudo apt-get update
+    sudo apt-get install build-essential
     ```
 
 ### Usage
 
 1. Modify the control points in the source code to define your desired Bezier surface.
 
+    ```
+    #define THREADS
+    #define NUMS
+    dim3 blockSize(1024);
+    ```
+
 2. Compile and run the program:
 
     ```shell
-    make run
+    ./exe.sh
     ```
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+NTNU 方語軒 612K0028C@ntnu.edu.tw
 
 ## Acknowledgements
 
 - [OpenMP](https://www.openmp.org/)
 - [CUDA](https://developer.nvidia.com/cuda-zone)
-- [Bezier Curves and Surfaces](https://en.wikipedia.org/wiki/B%C3%A9zier_curve)
+- [Best thanks Anthony Openmp projects](https://github.com/t0nyt93/OpenMP-Projects/tree/master)
+- [Bezier Volume Code](https://github.com/t0nyt93/OpenMP-Projects/blob/master/Bezier_Volume/main.cpp)
